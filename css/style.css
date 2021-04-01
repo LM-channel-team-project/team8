@@ -1,0 +1,25 @@
+@import "resetcss.css";
+@import "varilable.css";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/*--components--*/
+@import "components/header.css";
+
+/*--screen--*/
+@import "screen/main.css";
+
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.font {
+  font-family: "Quicksand", sans-serif;
+}

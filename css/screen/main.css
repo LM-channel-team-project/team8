@@ -1,0 +1,10 @@
+.app_screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+main {
+  height: 300vh;
+  background-color: var(--point_color);
+}
