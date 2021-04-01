@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to JSEP Guide!!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="app_screen font">
+        <header class="app_header">
+          <div class="top-div flex flex-column">
+            <div class="top-div__center flex">
+              <div class="top-div__center__span">
+                <span class="top-div__center__heart">❤</span>
+                <span class="top-div__center__hello"
+                  >Hello this is JESP Guide!!</span
+                >
+              </div>
+              <nav class="top-div__center__nav">
+                <ul class="list p10 flex">
+                  <li class="nav_bar">
+                    <a class="link" href="#">Content</a>
+                  </li>
+                  <li class="nav_bar">
+                    <a class="link" href="#">Contect</a>
+                  </li>
+                  <li class="nav_bar">
+                    <a class="link" href="#">Community</a>
+                  </li>
+                  <li class="nav_bar">
+                    <a class="link" href="#">About</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="bottom-div flex">
+            <div class="bottom-box flex flex-wrap">
+              <div class="name_1">
+                <a href="/" aria-label="Homepage">
+                  <h1 class="home_name">JESP-Guide</h1>
+                </a>
+              </div>
+              <div class="flex flex-auto search_2">
+                <form
+                  id="search"
+                  method="GET"
+                  action="/search"
+                  class="search_design"
+                >
+                  <div class="search_bar">
+                    <div class="search_content flex nowrap">
+                      <span class="search_icon">
+                        <i class="fas fa-search"></i>
+                      </span>
+                      <input
+                        type="search"
+                        name="q"
+                        placeholder="Search packages"
+                        autocomplete="off"
+                      />
+                    </div>
+                  </div>
+                  <button type="submit" class="submit_design" title="Submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+              <div class="sign-up_sign-in_3 flex nowrap">
+                <div class="sign-up_sign-in_3__button flex">
+                  <a href="/signup" id="signup" class="sign-up_design flex"
+                    >Sign Up</a
+                  >
+                  <a href="/login" id="signin" class="sign-in_design flex"
+                    >Sign In</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main></main>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/71835e9459.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
