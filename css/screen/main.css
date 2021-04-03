@@ -6,5 +6,32 @@
 }
 main {
   height: 300vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.boxs {
+  display: flex;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.colorbox {
+  width: 100px;
+  height: 100px;
+}
+.colorbox:first-child {
+  background-color: var(--grey);
+}
+.colorbox:nth-child(2) {
+  background-color: var(--white_black);
+}
+.colorbox:nth-child(3) {
+  background-color: var(--black);
+}
+.colorbox:last-child {
   background-color: var(--point_color);
 }
